@@ -1,0 +1,13 @@
+import gzip
+import json
+
+# writing
+with gzip.GzipFile(https://github.com/gracecollins411/POMjson/blob/21095cb2079ccbaf81c2e11c5f27072b6cab99dc/json, 'w') as fout:
+    for i in range(N):
+        uid = "whatever%i" % i
+        dv = [1, 2, 3]
+        data = json.dumps({
+            'what': uid,
+            'where': dv})
+
+        fout.write(data + '\n')
